@@ -1,5 +1,5 @@
-type TYPE_MODE = "dark" | "light";
-type TYPE_LANGUAGE = "id" | "en";
+export type TYPE_MODE = "dark" | "light";
+export type TYPE_LANGUAGE = "id" | "en";
 
 class Settings {
   static instance: Settings;
